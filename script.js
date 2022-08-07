@@ -8,7 +8,6 @@ const changePokemon = (img, name, id) => {
 }
 
 const findPokemon = (pesquisa) => {
-  if (pesquisa !== '') return fetch(`https://pokeapi.co/api/v2/pokemon/${pesquisa}/`);
   return fetch(`https://pokeapi.co/api/v2/pokemon/${pesquisa}/`)
 }
 const getPokemon = async (pesquisa) => {
