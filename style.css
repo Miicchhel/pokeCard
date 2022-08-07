@@ -7,10 +7,15 @@ h1 {
   text-align: center;
 }
 
+#card_pokemon , #card_pokemon__img {
+  border-radius: 5px;
+}
+
 #card_pokemon {
   width: 304px;
   height: 434px;
-  background-color: rgba(139, 139, 139, 0.479);
+  background-color: rgb(7 66 45 / 37%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
   display: flex;
   flex-direction: column;
@@ -55,5 +60,11 @@ h1 {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: rgba(137, 43, 226, 0.5);
+  font-size: 16px;
+  background-color: rgb(31 70 56 / 63%);
+  cursor: pointer;
+}
+
+#card_pokemon__busca__btn:hover {
+  background-color: rgb(31 70 56 / 50%);
 }
