@@ -30,4 +30,5 @@ const btnBuscar = document.getElementById('card_pokemon__busca__btn');
 btnBuscar.addEventListener('click', () => {
   const inputPokemon = document.getElementById('card_pokemon__busca__input')
   getPokemon(inputPokemon.value.toLowerCase());
+  inputPokemon.value = ''
 })
